@@ -66,8 +66,6 @@ namespace GB_02_05
             DFS(tree.Right);
         }
 
-
-
         static void Main(string[] args)
         {
             Console.WriteLine("Сбалансированное дерево");
@@ -82,7 +80,7 @@ namespace GB_02_05
 
             BFS(tree);
 
-            Console.WriteLine("Реализация deep-first search - DFS");     //      поиск в ширину, стек — это LIFO-структура данных
+            Console.WriteLine("Реализация deep-first search - DFS");     //      поиск в глубину, стек — это LIFO-структура данных
 
             DFS(tree);
 
